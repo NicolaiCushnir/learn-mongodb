@@ -8,7 +8,6 @@
 * [Examples](md/EXAMPLES.md)
 * [Questions](md/QUESTIONS.md)
 * [Methods](md/METHODS.md)
-* [Trash](md/QUESTIONS.md)
 
 ### Short Alogithm:
 1. [Download MongoDB](https://www.mongodb.com/download-center?jmp=nav#community)
@@ -33,5 +32,6 @@
 * [Stack Overflow](https://stackoverflow.com/tags/mongodb/info)
 * [mongodb-tutorial-w3schools](https://www.w3schools.blog/mongodb-tutorial)
 * [Mongoose](https://mongoosejs.com/)
-* [w3schools](https://www.w3schools.com/nodejs/nodejs_mongodb_create_db.asp
-https://docs.mongodb.com/drivers/node/current/)
+* [w3schools](https://www.w3schools.com/nodejs/nodejs_mongodb_create_db.asp)
+* [?](https://docs.mongodb.com/drivers/node/current/)
+* mongoose
