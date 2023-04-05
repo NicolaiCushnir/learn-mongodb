@@ -18,8 +18,10 @@ MongoClient.connect(url, function(err, client) {
 	const db = client.db(dbName);
 	
 	const insertDocuments = function(db, callback) {
+		
 		// Get the documents collection
 		const collection = db.collection('documents');
+		
 		// Insert some documents
 		collection.insertMany([
 			{a : 1}, {a : 2}, {a : 3}
