@@ -3,6 +3,8 @@
 ### Topics : learn-mongodb :
 * [introduction](md/)
 * [Installation](md/INSTALL.md)
+* [Compass](COMPASS.md)
+* [Mongosh](md/MONGOSH.md) (Shell)
 * [First Program](md/FIRST_PROGRAM.md)
 * [Tasks](md/TASKS.md)
 * [Examples](md/EXAMPLES.md)
