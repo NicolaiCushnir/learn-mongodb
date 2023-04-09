@@ -4,7 +4,7 @@
 * [introduction](md/INTRO.md)
 * [Installation](md/INSTALL.md)
 * [Compass](COMPASS.md)
-* [Mongo Shell](md/MONGO.md) (Shell)
+* [Mongo Shell](md/MONGO.md)
 * [Commands](md/COMMANDS.md)
 * [Aggregation](#)
 * [Indexing](#)
