@@ -1,21 +1,18 @@
-### Introduction in MongoDB
+### Return Main Page
 
-* MongoDB Enterprice Advanced
-* MongoDB Comuntity Edition
-* MongoDB Comunity Server
-* MongoDB Comunity Kubernetes Operator
-* MongoDB Atlas
-* MongoDB Compass
+### Types of database MongoDB which can to Downlaods :
+* [MongoDB Atlas](https://www.mongodb.com/try)
+* [MongoDB Comunity Server](https://www.mongodb.com/try/download/community)
+* [MongoDB Comunity Edition](https://www.mongodb.com/try/download/community-edition)
+* [MongoDB Enterprice Advanced](https://www.mongodb.com/try/download/enterprise)
 
-* MongoDB is a non-relational database. Created on documents.
+### Differents between these types of MongoDB ?
+* See little later ...
 
-### Requirements
-* For work with MongoDB you must have Node.js.
-* url: `mongodb://localhost:27017`, host: `localhost:27017` 
-
-### Dependends
-* npm install nodemon 
-* npm install express
-* npm install mongodb
-
-before download MongoDB and after && write in terminal : `npm install nodemon express mongodb mongoose`
+### Keywords in MongoDB: 
+* `mongo` : După conectarea la mongod, permite să lucrez în terminal.
+* `mongod` : Serverul bazei de date MongoDB.
+* `mongosh` : Eu am înlocuit mongosh cu mongo.
+* `BSON` : Binary JSON.
+* `mongos` : ?
+* `collection` : Analogic cu tabel.

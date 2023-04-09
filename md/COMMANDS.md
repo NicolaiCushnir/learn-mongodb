@@ -1,3 +1,6 @@
+### Commands in MongoDB:
+see little later
+
 ### Methods
 * `db.version()`
 * db.getName() ?
