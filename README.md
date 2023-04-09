@@ -10,6 +10,11 @@
 * [Examples](md/EXAMPLES.md)
 * [Questions](md/QUESTIONS.md)
 * [Methods](md/METHODS.md)
+* Aggregation
+* Indexing
+* Sata Modeling
+* Transactions
+* Search
 
 ### Types of database MongoDB (Downlaod)
 * [MongoDB Atlas](https://www.mongodb.com/try)
@@ -30,12 +35,13 @@
 
 ### Short Algorithm :
 1. [Download MongoDB Atlas](https://www.mongodb.com/download-center?jmp=nav#community)
-1. [Download MongoDB Shell](https://www.mongodb.com/try/download/shell)
-1. Create a new folder `mongosh` in `Program Files`
-1. Now add inside mongosh folder **unzip** `mongosh-1.8.0-win32-x64`
-1. Add `MongoDB Atlas` && `MongoDB Shell` in enviroment variables `/bin in PATH.`)
-1. `mongod –version` && `mongod --help`
+1. Add `MongoDB` in enviroment variables => `/bin in PATH.`)
 1. Scrie in consolă `mkdir C:/data/db`.
+1. [Now Download MongoDB Shell](https://www.mongodb.com/try/download/shell)
+1. Dezarhivează `mongosh-1.8.0-win32-x64.zip` undeva, macar si in downloads.
+1. Go to from `mongosh-1.8.0-win32-x64` in `bin` folder and copy all files.
+1. Important! Now, go to `C:\Program Files\MongoDB\Server\6.0\bin` and paste copied files, above
+1. Rename `mongosh` in `mongo`
 1. write **mkdir** in `your_new_project_name`
 1. go to **cd** `your_new_project_name`
 1. npm init

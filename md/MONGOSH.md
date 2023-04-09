@@ -10,20 +10,26 @@
 * Collection - analogic cu tabel în PostgreSQL
 
 ### List With Commands :
-* `show dbs;` show databases which you have now.
+* `show dbs;` show databases which you have now. 
 * `db` - Îți arată în ce bază de date ești acum.
 * `help` - Arată lista comenzilor de ajutor.
-* `use my-blog` - cuvîntul cheie `use` schimbă directoria sau crează o bază de date. 
+* `use my-blog` - cuvîntul cheie **use** schimbă directoria sau crează o bază de date. 
 * `?` - Rename Database
 * `db.users.find()` - ?
 * `exit` - Analogic with `CTRL + C`. Exit from mongo shell. 
-* `?` - show all collections.
 * `?` - Create a collection.
 * `show collections` - Nu merge aceasta comandă **???**
 * `?` - Rename a collection
 * `?` - Drop a Databases
-* `?` - Delete a collection ?
+* `db.drop.name_your_db` - Delete a collection ?
 * `db.user.insert({name: "Nicolai Cushnir"});` - write first object in your database.  Now you can read CRUD Docs.
+* `db help()` - ?
+* `getCollectionInfos` - ?
+
+### Commands in Terminal. No Mongosh!
+* `mongo --help`
+* `mongod –version`
+* `mongod --help`
 
 ### Account Manipulation Compass
 * `?` - Add an or more user in DB
