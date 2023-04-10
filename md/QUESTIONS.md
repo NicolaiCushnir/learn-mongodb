@@ -18,8 +18,28 @@ function connect_to_mongo () {
 }
 ```
 
-* Create a New User in MongoDB
-
-### Types of MongoDB
-* MongoDB Atlasian ?
-* MongoDB Compass
+* How to save `likes` and `dislikes` ? Maybe so :
+```json
+[
+   {
+      "user": "Nicolai Cushnir",
+      "likes" : [ 
+         "1" : {
+            url : "http://",
+            title : "Linkin Park Music"
+         }
+         "2" : {
+            url : "http://",
+            title : "Linkin Park Music"
+         }
+      ],
+      "dislikes" : [
+         url : "http://",
+         title : "Morgenshtein - bla bla bla"
+      ]
+   },
+   {
+      "user" : "Rriana Smith"
+   }
+]
+```
