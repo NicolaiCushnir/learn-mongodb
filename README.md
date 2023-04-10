@@ -15,6 +15,11 @@
 * [Examples](md/EXAMPLES.md)
 * [Questions](md/QUESTIONS.md)
 
+### Keywords
+* **Sharding** -  Означает разумно распределение
+данных по множеству компьютеров.
+* **Aggregation** - Обработка данных
+
 ### Exetern Links :
 * [Tutorial Point : Connecting MongoDB with NodeJS](https://www.tutorialspoint.com/connecting-mongodb-with-nodejs)
 * [Stack Overflow](https://stackoverflow.com/tags/mongodb/info)
