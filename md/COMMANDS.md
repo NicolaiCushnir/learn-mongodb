@@ -1,9 +1,17 @@
 ### Commands in MongoDB:
 see little later
 
-### Methods
-* `db.version()`
-* db.getName() ?
+### Commands in Shell Terminal 
+* `db.version()` - ?
+* `db.getName()` - ?
+* `db.users.find({gender:"female"}, {});` - Show only female gender.
+* `db.users.find({gender:"male"}, {});` - Sortare, male gender.
+* `db.users.countDocuments();` - Calculeaza numarul total de cite collectii ai.
+* `db.users.find().count();` - Calculeaza numarul total de cite collectii ai.
+* `db.find().limit(5)` - Limitarea documentelor, 5 este un exemplu. Deja tu decizi ce numar sa pui in locul lui 5 pentru a vedea cite elemente se poate de vizualizat in MongoDB Shell. Asta se face pentru optimizare.
+* `db.users.find().sort({age: -1});` - Sort after age in descrestere.
+* `db.users.find().sort({name: 1});` - Sort after alphabet name in crestere. 
+* `db.collection_name.drop();` - sterge toata colecția.
 
 ### Read Only
 * db.collection.find()
