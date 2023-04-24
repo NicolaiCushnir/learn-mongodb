@@ -12,6 +12,11 @@ see little later
 * `db.users.find().sort({age: -1});` - Sort after age in descrestere.
 * `db.users.find().sort({name: 1});` - Sort after alphabet name in crestere. 
 * `db.collection_name.drop();` - sterge toata colecția.
+* `db.users.find({age : {$lt:18}});` - Less than
+* `db.users.find({age : {$gt:18}});` - Greater than
+* `db.users.find({age : {$gte:30}})` - Greater than something and equal with him..
+* `db.users.find({age : {$lte:30}})` - Less than soemthing and equal.
+* `db.users.find({}, {name: 1, age: 1});` - Show only name and age
 
 ### Read Only
 * db.collection.find()
