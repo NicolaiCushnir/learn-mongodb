@@ -1,9 +1,14 @@
-### Commands in MongoDB:
-see little later
+### Return Main Page
 
 ### Commands in Shell Terminal 
-* `db.version()` - ?
-* `db.getName()` - ?
+* `db.version();` - Show version at mongoDB.
+* `db.getName();` - Show name at your database, where you are now. I mean inside db.
+
+**Insert Documentss**
+* `db.users.insertOne({name: "Sofia Rotaru", password: "sofia123", gender: "female", age: 14});` - insert something. Maybe an user, why not.
+* `db.users.insertMany([{}, {}]);` - Adding more documents. 
+
+**Find Documents**
 * `db.users.find({gender:"female"}, {});` - Show only female gender.
 * `db.users.find({gender:"male"}, {});` - Sortare, male gender.
 * `db.users.countDocuments();` - Calculeaza numarul total de cite collectii ai.
@@ -21,7 +26,7 @@ see little later
 * `db.users.find({age : {$ne:27} });` - Не равно (самаму себе). В данном случие не равен 27.
 * `db.users.find({age : {$in: [17, 27]}});` Оператор `$in:` выбирает документы, в которых значение поля равно любому значению в указанном массиве
 * `db.users.find({age : {$nin: [17, 27]}});` По сути оператор `$nin` являеться оператором отрицание `$in`.
-* `db.users.find({ $or: [{}, {} ]});` - Когда мы хотми создать запрос с несколька запросов. Этот оператор полезен когда мы хотим получить комбинирование значение. **Не работает**.
+* `db.users.find({ $or:[{name: "Nicolai Cushnir"}, {age: 29}] });` - Когда мы хотми создать запрос с несколька запросов. Этот оператор полезен когда мы хотим получить комбинирование значение. **Не понимаю как работает**.
 
 ### Read Only
 * db.collection.find()
