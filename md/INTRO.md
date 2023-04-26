@@ -14,5 +14,5 @@
 * `mongod` : Serverul bazei de date MongoDB.
 * `mongosh` : Eu am înlocuit mongosh cu mongo.
 * `BSON` : Binary JSON.
-* `mongos` : ?
+* `mongoss` : Local Database. Instead of Shell. Interface: A kind of `phpMyAdmin`.
 * `collection` : Analogic cu tabel.
