@@ -6,7 +6,7 @@
 
 **Insert Documentss**
 * `db.users.insertOne({name: "Sofia Rotaru", password: "sofia123", gender: "female", age: 14});` - insert something. Maybe an user, why not.
-* `db.users.insertMany([{}, {}]);` - Adding more documents. 
+* `db.users.insertMany([{ registred:"18.12.2019", name: "Lissa Smith", gender:"female", age: 16 }, {registred: "22.11.2019", name: "Ariana Grade", age: 16, gender: "female"}]);` - Adăugarea mai multor documente, obiecte în database dintr-o singură dată.
 
 **Find Documents**
 * `db.users.find({gender:"female"}, {});` - Show only female gender.
@@ -14,6 +14,7 @@
 * `db.users.countDocuments();` - Calculeaza numarul total de cite collectii ai.
 * `db.users.find().count();` - Calculeaza numarul total de cite collectii ai.
 * `db.find().limit(5)` - Limitarea documentelor, 5 este un exemplu. Deja tu decizi ce numar sa pui in locul lui 5 pentru a vedea cite elemente se poate de vizualizat in MongoDB Shell. Asta se face pentru optimizare.
+* `db.users.findOne({ _id: ObjectId("644e749e40f95f57eeb1545f") });` - minusu e că trebuie să scrii tot manul concret, precum în egsemplu dat, trebuie să știi id-ul concret. Într-un fel găesște obiectul dorit din db.
 * `db.users.find().sort({age: -1});` - Sort after age in descrestere.
 * `db.users.find().sort({name: 1});` - Sort after alphabet name in crestere. 
 * `db.collection_name.drop();` - sterge toata colecția.
@@ -27,8 +28,14 @@
 * `db.users.find({age : {$in: [17, 27]}});` Оператор `$in:` выбирает документы, в которых значение поля равно любому значению в указанном массиве
 * `db.users.find({age : {$nin: [17, 27]}});` По сути оператор `$nin` являеться оператором отрицание `$in`.
 
-**Не понимаю как работает : Operator $or:[]**.
+**Delete Documents**
+* `db.users.deleteMany()` - ? **?**
+* `db.users.deleteOne()` - ? **?**
+
+**Не понимаю как работает :**
 * `db.users.find({ $or:[{name: "Nicolai Cushnir"}, {age: 29}] });` - Когда мы хотми создать запрос с несколька запросов. Этот оператор полезен когда мы хотим получить комбинирование значение. 
+* `{$and:[{tags:"ssl"},{tags: "security"}]};` **?**
+* `db.users.find({"reviews.name" : "jack"});` Вложеные документы **?**
 
 ### Read Only
 * db.collection.find()

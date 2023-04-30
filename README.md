@@ -11,6 +11,7 @@
 * [Sata Modeling](#)
 * [Transactions](#)
 * [Search](#)
+* [Errors](md/ERORRS.md)
 * [Tasks](md/TASKS.md)
 * [Examples](md/EXAMPLES.md)
 * [Questions](md/QUESTIONS.md)
