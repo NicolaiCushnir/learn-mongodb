@@ -1,41 +1,58 @@
 ### Return Main Page : 
 
-### Errors :
+### My Errors in MongoDB Shell :
 
-* `db.users.find({"reviews.name": "Jack"});`. Nuștiu de ce dar nu merge. Am încercat dar înzădar. Așa arată structura la document :
+* **Nu Merge! Why???** `db.users.find({"reviews.name": "Jack Tomson"});`. (вложенные документы)
 
 ```js
 {
   "_id": {
-    "$oid": "644e749e40f95f57eeb1545e"
+    "$oid": "644e97ed2bbfdce56a31b597"
   },
-  "registred": "18.12.2019",
-  "name": "Lissa Smith",
-  "gender": "female",
-  "age": 16,
-  "mail": "lissa_smith_@yahoo.com",
-  "password": "{@!-lissa-!@}",
-  "msg": [],
+  "name_at_movie": "Fear and Hate",
+  "created_year": 1974,
   "duration": {
-    "hours": 2,
-    "minutes": 34
+    "hours": 3,
+    "minutes": 12
   },
-  "reviwes": [
-    0,
+  "views": 14202,
+  "genre": [
+    "crime",
+    "drama"
+  ],
+  "rating": 7.6,
+  "reviews": [
     {
-      "name": "Jack",
-      "text": "amazing movie!"
+      "name": "Jack Tomson",
+      "text": "Amazing movie"
     },
-    1,
     {
-      "name": "Tom",
-      "text": "And I same think so that this movie is amazing."
+      "name": "Madison Kavani",
+      "text": "I also so think ..."
     }
   ]
 }
 ```
 
 * `db.users.find({property: {$all: ["", ""]}});` - Operatorul $all este un array care contine toate elementele specifice. 
+
+```js
+console.log();
+```
+
+* `db.users.find({ $or:[{name: "Nicolai Cushnir"}, {age: 29}] });` - Когда мы хотми создать запрос с несколька запросов. Этот оператор полезен когда мы хотим получить комбинирование значение. 
+
+```js
+console.log();
+```
+
+* `{$and:[{tags:"ssl"},{tags: "security"}]};`
+
+```js
+console.log();
+```
+
+* `db.users.find({"reviews.name" : "jack"});` Вложеные документы
 
 ```js
 console.log();

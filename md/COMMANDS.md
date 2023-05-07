@@ -29,22 +29,9 @@
 * `db.users.find({age : {$nin: [17, 27]}});` По сути оператор `$nin` являеться оператором отрицание `$in`.
 
 **Delete Documents**
+* `db.movies.drop();` Șterge toată colecția. Asta doar în cazul în care ea există și are ceva înăuntru.
 * `db.users.deleteMany()` - ? **?**
 * `db.users.deleteOne()` - ? **?**
-
-**Не понимаю как работает :**
-* `db.users.find({ $or:[{name: "Nicolai Cushnir"}, {age: 29}] });` - Когда мы хотми создать запрос с несколька запросов. Этот оператор полезен когда мы хотим получить комбинирование значение. 
-* `{$and:[{tags:"ssl"},{tags: "security"}]};` **?**
-* `db.users.find({"reviews.name" : "jack"});` Вложеные документы **?**
-
-### Read Only
-* db.collection.find()
-* db.collection.findOne()
-* db.collection.aggregate()
-* db.collection.countDocuments()
-* db.collection.estimatedDocumentCount()
-* db.collection.count()
-* db.collection.distinct()
 
 ### Extern links :
 * [MngoDB manual reference methods](https://docs.mongodb.com/manual/reference/method/js-database/)
