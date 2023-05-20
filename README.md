@@ -1,20 +1,20 @@
 ![image](public/img/drawing.png)
 
 ### Topics : learn-mongodb :
-* [introduction](md/INTRO.md)
-* [Installation](md/INSTALL.md)
-* [Compass](md/COMPASS.md)
-* [Mongo Shell](md/MONGO.md)
-* [Commands](md/COMMANDS.md)
-* [Aggregation](md/AGGREGATION.md)
+* [introduction](docs/INTRO.md)
+* [Installation](docs/INSTALL.md)
+* [Compass](docs/COMPASS.md)
+* [Mongo Shell](docs/MONGO.md)
+* [Commands](docs/COMMANDS.md)
+* [Aggregation](docs/AGGREGATION.md)
 * [Indexing](#)
-* [Data Modeling](md/DATA_MODELING.md)
+* [Data Modeling](docs/DATA_MODELING.md)
 * [Transactions](#)
 * [Search](#)
-* [Errors](md/ERORRS.md)
-* [Tasks](md/TASKS.md)
-* [Examples](md/EXAMPLES.md)
-* [Questions](md/QUESTIONS.md)
+* [Errors](docs//ERORRS.md)
+* [Tasks](docs/TASKS.md)
+* [Examples](docs/EXAMPLES.md)
+* [Questions](docs/QUESTIONS.md)
 
 ### Keywords
 * **Sharding** -  Означает разумно распределение

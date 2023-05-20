@@ -34,12 +34,6 @@
 }
 ```
 
-* `db.users.find({property: {$all: ["", ""]}});` - Operatorul $all este un array care contine toate elementele specifice. 
-
-```js
-console.log();
-```
-
 * `db.users.find({ $or:[{name: "Nicolai Cushnir"}, {age: 29}] });` - Когда мы хотми создать запрос с несколька запросов. Этот оператор полезен когда мы хотим получить комбинирование значение. 
 
 ```js
@@ -52,8 +46,3 @@ console.log();
 console.log();
 ```
 
-* `db.users.find({"reviews.name" : "jack"});` Вложеные документы
-
-```js
-console.log();
-```
