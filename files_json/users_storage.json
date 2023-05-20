@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "6432bfc5c82933b167a2eaee"
+  },
+  "registred": "19.12.2018",
+  "name": "Ion Mocanu",
+  "gender": "male",
+  "age": 27,
+  "mail": "ion_mocan@gmail.com",
+  "password": "zaya94_idi_ti_na",
+  "msg": []
+},{
+  "_id": {
+    "$oid": "6432d6732a5b66cbc95ad2df"
+  },
+  "registred": "03.01.2016",
+  "name": "Alexandru Ambros",
+  "gender": "male",
+  "age": 39,
+  "mail": "alexandru_ambros@yahoo.com",
+  "password": "alexandru_ambros_la_putere",
+  "tags": [
+    "school",
+    "book",
+    "bag",
+    "headphone",
+    "appliance"
+  ],
+  "msg": []
+},{
+  "_id": {
+    "$oid": "6432d9572a5b66cbc95ad2e1"
+  },
+  "registred": "12.06.2022",
+  "name": "Anna Cushnir",
+  "gender": "female",
+  "age": 33,
+  "mail": "anna_cushnir_@gmail.com",
+  "password": "i_love_my_husban",
+  "msg": []
+},{
+  "_id": {
+    "$oid": "643411f018d3ab50a5c881e5"
+  },
+  "registred": "19.12.2015",
+  "name": "Nicolai Cushnir",
+  "gender": "male",
+  "age": 29,
+  "mail": "cushnirnicolai@gmail.com",
+  "password": "node.js_developer_2009",
+  "tags": [
+    "school",
+    "book",
+    "bag",
+    "headphone",
+    "appliance"
+  ],
+  "likes": [
+    "Here must be link to all likes, with User Nicolai Cushnir. "
+  ],
+  "dislikes": [
+    "Here must be link to all dislikes, with User Nicolai Cushnir"
+  ],
+  "msg": []
+},{
+  "_id": {
+    "$oid": "6434125318d3ab50a5c881e7"
+  },
+  "registred": "04.04.2023",
+  "name": "Alina Spinu",
+  "gender": "female",
+  "age": 27,
+  "mail": "alinaspinu@gmail.com",
+  "password": "floricele_pe_cimpii_alina",
+  "msg": []
+},{
+  "_id": {
+    "$oid": "6446a3e5d9dfcb4eddc923df"
+  },
+  "registred": "11.04.2023",
+  "name": "Valeriu Scutaru",
+  "gender": "male",
+  "age": 17,
+  "mail": "valearascutaru@gmail.com",
+  "password": "valeara_scutaru123_",
+  "msg": []
+},{
+  "_id": {
+    "$oid": "644926b5b6460c902e8153d0"
+  },
+  "name": "Sofia Rotaru",
+  "password": "sofia123",
+  "gender": "female",
+  "age": 14
+},{
+  "_id": {
+    "$oid": "644e749e40f95f57eeb1545e"
+  },
+  "registred": "18.12.2019",
+  "name": "Lissa Smith",
+  "gender": "female",
+  "age": 16,
+  "mail": "lissa_smith_@yahoo.com",
+  "password": "{@!-lissa-!@}",
+  "msg": [],
+  "duration": {
+    "hours": 2,
+    "minutes": 34
+  },
+  "reviwes": [
+    0,
+    {
+      "name": "Jack",
+      "text": "amazing movie!"
+    },
+    1,
+    {
+      "name": "Tom",
+      "text": "And I same think so that this movie is amazing."
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "644e749e40f95f57eeb1545f"
+  },
+  "registred": "22.11.2019",
+  "name": "Ariana Grade",
+  "age": 16,
+  "gender": "female",
+  "duration": {
+    "hours": 2,
+    "minutes": 34
+  },
+  "reviwes": [
+    {
+      "name": "Bill",
+      "text": "Good movie!"
+    },
+    {
+      "name": "Rin",
+      "text": "Duck Yeah."
+    }
+  ]
+}]
