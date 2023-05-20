@@ -1,5 +1,5 @@
 ### Questions
-* mongos - What is mongos ? something : query roter
+* `mongos` - What is mongos ? something : query roter. Vezi nu încurca cu `Compass`.
 * Что такое репликация базы данных ?
 * Как работать с `cache` ? (Redis -> Кэш надо хранить на оделеным сервере.). У кэш серверов обычна очень много оеративной памети. 
 * `mongo --port 27017` Mongo Shell
