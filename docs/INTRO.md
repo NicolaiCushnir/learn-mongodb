@@ -15,5 +15,5 @@
 * `mongosh` : Eu am înlocuit mongosh cu mongo.
 * `BSON` : Binary JSON.
 * `mongos` - ?
-*  `comapss`: Local database. A place where you write your json scheema in interface mode. I mean instead of Shell ... A kind of `phpMyAdmin`.
+*  `compass`: Local database. A place where you write your json scheema in interface mode. I mean instead of Shell ... A kind of `phpMyAdmin`.
 * `collection` : Analogic cu tabel.
