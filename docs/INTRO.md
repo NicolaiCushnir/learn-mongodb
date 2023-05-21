@@ -17,3 +17,6 @@
 * `mongos` - это утилита MongoDB Shard, которая считается контроллером и маршрутизатором запросов для сегментированных кластеров .
 *  `compass`: Local database. A place where you write your json scheema in interface mode. I mean instead of Shell ... A kind of `phpMyAdmin`.
 * `collection` : Analogic cu tabel.
+
+### Extern Links :
+* [Mongos Manual](https://www.mongodb.com/docs/manual/reference/program/mongos/)
