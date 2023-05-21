@@ -1,6 +1,6 @@
 ### Work with Mongosh Shell
 * pentru inceput scrie in consola `mongod`.
-* Acum deschide alta consola si scrie `mongosh`.
+* Acum deschide alta consola si scrie `mongo`.
 * Acum putem lucra. Uite mai jos.
 
 ### Notes
