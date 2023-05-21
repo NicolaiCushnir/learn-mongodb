@@ -18,7 +18,7 @@
 * `db.users.find()` - ?
 * `exit` - Analogic with `CTRL + C`. Exit from mongo shell. 
 * `?` - Create a collection.
-* `show collections` - Nu merge aceasta comandă **???**
+* `show collections` - Arată toate tabelele care leai creat.
 * `?` - Rename a collection
 * `?` - Drop a Databases
 * `db.drop.name_your_db` - Delete a collection ?
