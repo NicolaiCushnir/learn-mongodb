@@ -1,7 +1,5 @@
 ![image](public/img/drawing.png)
 
-**Atention!** This repository still not ready,  but if honest, i only begun to work at him. The main thing is not to get infected with the disease inflammation of laziness. :D
-
 ### Topics : learn-mongodb :
 * [introduction](docs/INTRO.md)
 * [Installation](docs/INSTALL.md)
