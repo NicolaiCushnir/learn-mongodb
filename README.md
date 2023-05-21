@@ -6,10 +6,11 @@
 * [introduction](docs/INTRO.md)
 * [Installation](docs/INSTALL.md)
 * [Compass](docs/COMPASS.md)
-* [Mongo Shell](docs/MONGO.md)
-* [Commands](docs/COMMANDS.md)
-* [Aggregation](docs/AGGREGATION.md)
-* [Indexing](#)
+* [Mongo Shell](docs/MONGO.md) **?**
+* [Commands](docs/COMMANDS.md) **?**
+* [Methods](docs/METHODS.md)
+* [Aggregation](docs/AGGREGATION.md) **?**
+* [Indexing](#) **?**
 * [Data Modeling](docs/DATA_MODELING.md)
 * [Transactions](#)
 * [Search](#)
@@ -25,6 +26,7 @@
 * **Aggregation** - Обработка данных
 
 ### Exetern Links :
+* [MongoDB All Methods](https://www.mongodb.com/docs/v4.2/reference/method/db.collection.update/#db.collection.update)
 * [Tutorial Point : Connecting MongoDB with NodeJS](https://www.tutorialspoint.com/connecting-mongodb-with-nodejs)
 * [Stack Overflow](https://stackoverflow.com/tags/mongodb/info)
 * [mongodb-tutorial-w3schools](https://www.w3schools.blog/mongodb-tutorial)
