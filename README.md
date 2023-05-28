@@ -19,9 +19,8 @@
 * [Questions](docs/QUESTIONS.md)
 
 ### Keywords
-* **Sharding** -  Означает разумно распределение
-данных по множеству компьютеров.
-* **Aggregation** - Обработка данных
+* **Sharding** -  Означает разумно распределение данных по множеству компьютеров.
+* **Aggregation** - Обработка данных.
 
 ### Exetern Links :
 * [MongoDB All Methods](https://www.mongodb.com/docs/v4.2/reference/method/db.collection.update/#db.collection.update)

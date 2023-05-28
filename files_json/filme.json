@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "644e97ed2bbfdce56a31b597"
+  },
+  "name_at_movie": "Fear and Hate",
+  "created_year": 1974,
+  "duration": {
+    "hours": 3,
+    "minutes": 12
+  },
+  "views": 14202,
+  "genre": [
+    "crime",
+    "drama"
+  ],
+  "rating": 7.6,
+  "reviews": [
+    {
+      "name": "Jack Tomson",
+      "text": "Amazing movie"
+    },
+    {
+      "name": "Madison Kavani",
+      "text": "I also so think ..."
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6468a7893f241f103cbe8849"
+  },
+  "name_at_movie": "Dute in ...",
+  "created_year": 2023,
+  "director": "Nicolai Cushnir",
+  "duration": {
+    "hours": 0,
+    "minutes": 30
+  },
+  "views": 14202,
+  "genre": [
+    "comedy",
+    "action"
+  ],
+  "rating": 7.6,
+  "reviews": [
+    "name",
+    "text"
+  ]
+}]
