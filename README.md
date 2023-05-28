@@ -1,5 +1,7 @@
 ![image](public/img/drawing.png)
 
+**Attention !** This repository still is raw. But I will try to do a good documentation for MongoDB.
+
 ### Topics : learn-mongodb :
 * [introduction](docs/INTRO.md)
 * [Installation](docs/INSTALL.md)
