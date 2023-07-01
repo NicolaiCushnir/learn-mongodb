@@ -9,13 +9,6 @@ app.get('/', function(req, res) {
 	res.send("Hi! MongoDB");
 });
 
-MongoClient.connect(url, function(err, db){
-	if(err) throw err;
-
-	console.log("database was created : ");
-	db.close();
-});
-
 app.listen(port, function() {
 	console.log('Server running on the port ' + port);
 });

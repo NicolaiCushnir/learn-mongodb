@@ -3,6 +3,8 @@
 ### Commands in Shell Terminal 
 * `db.version();` - Show version at mongoDB.
 * `db.getName();` - Show name at your database, where you are now. I mean inside db.
+* `show dbs` - ?
+* `show collections` - ?
 
 **Insert Documentss**
 * `db.users.insertOne({name: "Sofia Rotaru", password: "sofia123", gender: "female", age: 14});` - insert something. Maybe an user, why not.
@@ -29,9 +31,13 @@
 * `db.users.find({age : {$nin: [17, 27]}});` По сути оператор `$nin` являеться оператором отрицание `$in`.
 
 **Delete Documents**
-* `db.movies.drop();` Șterge toată colecția. Asta doar în cazul în care ea există și are ceva înăuntru.
-* `db.users.deleteMany()` - ? **?**
-* `db.users.deleteOne()` - ? **?**
+* `db.users.deleteOne({ _id: ObjectId("6432d6732a5b66cbc95ad2df") });` În cazu nostru șterge un utilizator.
+* `db.users.deleteMany({gender: "male"});` - ? Am șters toți pațanii din baza de date. :D Au rămas numa mueri, lol. 
+* `db.movies.drop();` Șterge toată colecția. Asta doar în cazul în care ea există și are ceva înăuntru. **?**
+
+**Update Documents**
+* 1
+* 2
 
 ### Extern links :
 * [MngoDB manual reference methods](https://docs.mongodb.com/manual/reference/method/js-database/)

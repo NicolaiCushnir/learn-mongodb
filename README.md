@@ -7,7 +7,7 @@
 * [Installation](docs/INSTALL.md)
 * [Compass](docs/COMPASS.md)
 * [Mongo Shell](docs/MONGO.md) **?**
-* [Commands](docs/COMMANDS.md) **?**
+* [Commands](docs/COMMANDS.md) **?** Now Work ...
 * [Methods](docs/METHODS.md)
 * [Aggregation](docs/AGGREGATION.md) **?**
 * [Indexing](#) **?**
