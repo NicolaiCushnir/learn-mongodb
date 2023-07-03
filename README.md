@@ -9,7 +9,7 @@
 * [Mongo Shell](docs/MONGO.md)
 * [Commands](docs/COMMANDS.md) Now Work ...
 * [Methods](docs/METHODS.md)
-* [Operators](docs/OPERATORS.m)
+* [Operators](docs/OPERATORS.md)
 * [Aggregation](docs/AGGREGATION.md)
 * [Indexing](#)
 * [Data Modeling](docs/DATA_MODELING.md)
@@ -19,6 +19,7 @@
 * [Tasks](docs/TASKS.md)
 * [ADV and DIS](docs/ADV&&DIS.md)
 * [Examples](docs/EXAMPLES.md)
+* [Sharding](SHARDING.md)
 * [Questions](docs/QUESTIONS.md)
 
 ### Keywords

@@ -1,4 +1,6 @@
-### Questions
+### [return main page](../README.md)
+
+### Questions MongoDB :
 * `mongos` - What is mongos ? something : query roter. Vezi nu încurca cu `Compass`.
 * Что такое репликация базы данных ?
 * Как работать с `cache` ? (Redis -> Кэш надо хранить на оделеным сервере.). У кэш серверов обычна очень много оеративной памети. 
@@ -18,28 +20,4 @@ function connect_to_mongo () {
 }
 ```
 
-* How to save `likes` and `dislikes` ? Maybe so :
-```json
-[
-   {
-      "user": "Nicolai Cushnir",
-      "likes" : [ 
-         "1" : {
-            url : "http://",
-            title : "Linkin Park Music"
-         }
-         "2" : {
-            url : "http://",
-            title : "Linkin Park Music"
-         }
-      ],
-      "dislikes" : [
-         url : "http://",
-         title : "Morgenshtein - bla bla bla"
-      ]
-   },
-   {
-      "user" : "Rriana Smith"
-   }
-]
-```
+* How to save so i want `likes` and `dislikes` ?

@@ -1,4 +1,5 @@
-### EXAMPLES
+
+### Examples :
 Now try it. Open your console and go to your script which save it and run.
 
 ```js

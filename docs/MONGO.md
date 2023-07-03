@@ -1,3 +1,5 @@
+### [return main page](../README.md)
+
 ### Work with Mongosh Shell
 * pentru inceput scrie in consola `mongod`.
 * Acum deschide alta consola si scrie `mongo`.

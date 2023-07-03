@@ -1,6 +1,4 @@
-### Return Main Page
-
-### Commands in Shell Terminal 
+### [return main page](../README.md) || Commands in Shell Terminal 
 * `db.version();` - Show version at mongoDB.
 * `db.getName();` - Show name at your database, where you are now. I mean inside db.
 * `show dbs` - show all datababases which you have.
