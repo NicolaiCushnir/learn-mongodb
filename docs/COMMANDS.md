@@ -36,8 +36,8 @@
 * `db.users.drop();` Șterge toată colecția. Asta doar în cazul în care ea există și are ceva înăuntru.
 
 **Update Documents**
-* 1
-* 2
+* `db.users.updateOne({ _id: ObjectId('6432bfc5c82933b167a2eaee')}, { $set:{ likes: "none", dislikes: "none" } } );` - 
+* `db.users.updateMany( {}, {$set: { likes: "none", dislikes: "none"}} );` - am schimbat și adăugat în același timp proprietățile `likes` și `dislikes`.
 
 ### Extern links :
 * [MngoDB manual reference methods](https://docs.mongodb.com/manual/reference/method/js-database/)
