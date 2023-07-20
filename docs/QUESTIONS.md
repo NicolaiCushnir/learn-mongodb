@@ -6,7 +6,6 @@
 * Как работать с `cache` ? (Redis -> Кэш надо хранить на оделеным сервере.). У кэш серверов обычна очень много оеративной памети. 
 * `mongo --port 27017` Mongo Shell
 * Nu știu exact ce trebuie de făcut ca să am așa rezultat. Într-un fel conectiunea la baza de date să fie aparte.
-Что такое Cluster и нафига он нужен ?
 
 ```js
 function connect_to_mongo () {
@@ -22,3 +21,4 @@ function connect_to_mongo () {
 
 * How to save so i want `likes` and `dislikes` ?
 * Как работать с датой и времение в MongoDB ?
+* Что такое Cluster и нафига он нужен ?

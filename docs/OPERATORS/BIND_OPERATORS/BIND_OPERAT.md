@@ -1,3 +1,4 @@
+### [return main page](../README.md)
 Aici eu am să leg diferite tipuri de operatori precum { `$or`, `$and`, `$or`, `$all`, `$nin` } și am să încerc să le combin și amestec.
 
 **Task 1** Înteresant cîte varetăți o să primească?

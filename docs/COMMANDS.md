@@ -39,8 +39,7 @@
 * `db.users.updateOne({ _id: ObjectId('6432bfc5c82933b167a2eaee')}, { $set:{ likes: "none", dislikes: "none" } } );` - 
 * `db.users.updateMany( {}, {$set: { likes: "none", dislikes: "none"}} );` - am schimbat și adăugat în același timp proprietățile `likes` și `dislikes`.
 * `db.users.updateOne({ _id: ObjectId('644e749e40f95f57eeb1545e') }, { $inc: { age: 1 } });`  - Увеличивает или инкрементирует на указанное значение. Также этот оператор принимает положительные и отрицательные значения. Если поле не существует, $inc создает поле и устанавливает для поля указанное значение. В днааном примере мы увиличили возраст на 1 год.
-* `db.users.update();` - **?**
-* `db.users.update` - ?
+* `db.users.updateMany({}, { $inc: { "duration.minutes": 2 } });` - Be careful with operators and braces. Nustiu de ce so sters 2 id-uri, apoi sa pus la toate minutes: 2. Weird!
 * `db.users.update` - ?
 * `db.users.update` - ?
 * `db.users.update` - ?
