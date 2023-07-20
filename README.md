@@ -12,6 +12,7 @@
 * [Operators](docs/OPERATORS.md)
 * [Aggregation](docs/AGGREGATION.md)
 * [Indexing](docs/INDEXING.md)
+* [Security](#)
 * [Data Modeling](docs/DATA_MODELING.md)
 * [Transactions](#)
 * [Search](#)

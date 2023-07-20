@@ -7,8 +7,8 @@
 1. [Now Download MongoDB Shell](https://www.mongodb.com/try/download/shell)
 1. Dezarhivează `mongosh-1.8.0-win32-x64.zip` undeva, macar si in downloads.
 1. Go to from `mongosh-1.8.0-win32-x64` in `bin` folder and copy all files.
-1. Important! Now, go to `C:\Program Files\MongoDB\Server\6.0\bin` and paste copied files, above
-1. Rename `mongosh` in `mongo`
+1. Important! Now, go to `C:\Program Files\MongoDB\Server\6.0\bin` and paste this path which i now highlighted in file explorer.
+1. Rename `mongosh.exe` with `mongo.exe`
 
 ### Aditional :
 1. write **mkdir** in `your_new_project_name`

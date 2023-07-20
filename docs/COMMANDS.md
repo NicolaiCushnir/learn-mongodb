@@ -3,8 +3,8 @@
 * `db.getName();` - Show name at your database, where you are now. I mean inside db.
 * `show dbs` - show all datababases which you have.
 * `show collections;` || `db.collection_name.find();`- Show all collections inside at database, and collection is analogic with table from PostgreSQL.
-* `?` - Rename collection?
-* `?` - Create a collection with help at terminal? Probably only with Compass to do.
+* `?` - Rename collection? **?**
+* `?` - Create a collection with help at terminal? Probably only with Compass to do. **?**
 
 **Insert Documentss**
 * `db.users.insertOne({name: "Sofia Rotaru", password: "sofia123", gender: "female", age: 14});` - insert something. Maybe an user, why not.
