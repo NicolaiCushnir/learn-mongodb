@@ -1,7 +1,7 @@
 ### [return main page](../README.md)
 
 ### Topic. Sharding
-not be soon ... Maybe will be in 2024. The most probably, at the begin of year.
+* **Sharding** -  Означает разумно распределение данных по множеству компьютеров.
 
 ### Extern links :
 * link 1

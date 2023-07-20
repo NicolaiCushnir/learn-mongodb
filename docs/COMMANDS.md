@@ -38,6 +38,13 @@
 **Update Documents**
 * `db.users.updateOne({ _id: ObjectId('6432bfc5c82933b167a2eaee')}, { $set:{ likes: "none", dislikes: "none" } } );` - 
 * `db.users.updateMany( {}, {$set: { likes: "none", dislikes: "none"}} );` - am schimbat și adăugat în același timp proprietățile `likes` și `dislikes`.
+* `db.users.updateOne({ _id: ObjectId('644e749e40f95f57eeb1545e') }, { $inc: { age: 1 } });`  - Увеличивает или инкрементирует на указанное значение. Также этот оператор принимает положительные и отрицательные значения. Если поле не существует, $inc создает поле и устанавливает для поля указанное значение. В днааном примере мы увиличили возраст на 1 год.
+* `db.users.update();` - **?**
+* `db.users.update` - ?
+* `db.users.update` - ?
+* `db.users.update` - ?
+* `db.users.update` - ?
+* `db.collection.findAndModify();` - **?**
 
 ### Extern links :
 * [MngoDB manual reference methods](https://docs.mongodb.com/manual/reference/method/js-database/)

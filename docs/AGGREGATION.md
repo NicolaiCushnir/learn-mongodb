@@ -1,8 +1,7 @@
 ### [return main page](../README.md)
 
 ### Topic. Agreggation. 
-
-**Note 1** Important! Bellow is agreggation with version at MongoDB 4.2, but maybe will work and at 6.0.
+* **Note 1** Important! Bellow is agreggation with version at MongoDB 4.2, but maybe will work and at 6.0.
 
 Что такое агрегация в MongoDB? Агрегация — это способ обработки большого количества документов в коллекции путем прохождения их через разные этапы . Этапы составляют то, что известно как конвейер. Этапы конвейера могут фильтровать, сортировать, группировать, изменять форму и изменять документы, проходящие через конвейер.
 

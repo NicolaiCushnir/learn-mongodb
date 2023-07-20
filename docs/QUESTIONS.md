@@ -21,3 +21,4 @@ function connect_to_mongo () {
 ```
 
 * How to save so i want `likes` and `dislikes` ?
+* Как работать с датой и времение в MongoDB ?

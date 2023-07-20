@@ -11,7 +11,7 @@
 * [Methods](docs/METHODS.md)
 * [Operators](docs/OPERATORS.md)
 * [Aggregation](docs/AGGREGATION.md)
-* [Indexing](#)
+* [Indexing](docs/INDEXING.md)
 * [Data Modeling](docs/DATA_MODELING.md)
 * [Transactions](#)
 * [Search](#)
@@ -21,10 +21,6 @@
 * [Examples](docs/EXAMPLES.md)
 * [Sharding](SHARDING.md)
 * [Questions](docs/QUESTIONS.md)
-
-### Keywords
-* **Sharding** -  Означает разумно распределение данных по множеству компьютеров.
-* **Aggregation** - Обработка данных.
 
 ### Exetern Links :
 * [MongoDB All Methods](https://www.mongodb.com/docs/v4.2/reference/method/db.collection.update/#db.collection.update)
