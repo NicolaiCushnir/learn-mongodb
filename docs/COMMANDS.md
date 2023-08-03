@@ -1,10 +1,14 @@
 ### [return main page](../README.md) || Commands in Shell Terminal 
+
+**Global manipulation with database**
 * `db.version();` - Show version at mongoDB.
 * `db.getName();` - Show name at your database, where you are now. I mean inside db.
 * `show dbs` - show all datababases which you have.
 * `show collections;` || `db.collection_name.find();`- Show all collections inside at database, and collection is analogic with table from PostgreSQL.
 * `?` - Rename collection? **?**
 * `?` - Create a collection with help at terminal? Probably only with Compass to do. **?**
+* `db.users.find().pretty();` - Nuștiu dacă este nevoie dar, într-un fel arată toată lista dintr-o colecție într-o formă mai frumoasă. Defapt în versiunea la MongoDB 6.0.5 nu este nevoie de această metodă. În versiunele mai vechi arăta compact mod.
+* `?` - how to look a colection in compact mode **?**
 
 **Insert Documentss**
 * `db.users.insertOne({name: "Sofia Rotaru", password: "sofia123", gender: "female", age: 14});` - insert something. Maybe an user, why not.
@@ -41,9 +45,12 @@
 * `db.users.updateOne({ _id: ObjectId('644e749e40f95f57eeb1545e') }, { $inc: { age: 1 } });`  - Увеличивает или инкрементирует на указанное значение. Также этот оператор принимает положительные и отрицательные значения. Если поле не существует, $inc создает поле и устанавливает для поля указанное значение. В днааном примере мы увиличили возраст на 1 год.
 * `db.users.updateMany({}, { $inc: { "duration.minutes": 2 } });` - Be careful with operators and braces. Nustiu de ce so sters 2 id-uri, apoi sa pus la toate minutes: 2. Weird! **?**
 * `db.users.updateOne( {_id: ObjectId("6432bfc5c82933b167a2eaee")}, {$pull: {genres: "drama"}} );` -  Operator $pull delete for properties or property. In cazu meu nifiga el nu sa sters. **?**
-* `db.users.updateOne( {_id: ObjectId("6432bfc5c82933b167a2eaee")}, {$push: {genres: "drama"}} );` - Tipa operator $push adaugă proprietate dar nu proprietati. Pentru așa cazuri unde dorești să adaugi mai multe proprietăți egzistă operatorul $inc 
-* `db.users.updateOne( { _id: ObjectId("6432bfc5c82933b167a2eaee") }, { $push: {genres: { $each: ["test_1", "test_2", "test_3"] }} } );` - Operatorul $each: {} Adauga mai multe proprietatati.
+* `db.users.updateOne( {_id: ObjectId("6432bfc5c82933b167a2eaee")}, {$push: {genres: "drama"}} );` - Tipa operator $push adaugă proprietate dar nu proprietati. Pentru așa cazuri unde dorești să adaugi mai multe proprietăți egzistă operatorul **$each ? Dar $inc ?** 
+* `db.users.updateOne( { _id: ObjectId("6432bfc5c82933b167a2eaee") }, { $push: {genres: { $each: ["test_1", "test_2", "test_3"] }} } );` - Operatorul $each: {} Adauga mai multe proprietatati. **?**
 * `db.collection.findAndModify();` - **?**
+* `db.users.find({ rating: null });` - Используй это когда ты хочешь получить доступ к докуметам которые отсутствует свойства. У меня вообще нет в коллекции такое свойство, поэтому выдаёт всю коллекцию.
+* `{ raiting: { $exists: false } }` Для проверки если поля присутствует или нет. **?**
+* `db.users.find({  }).skip();` **?**
 
 ### Extern links :
 * [MngoDB manual reference methods](https://docs.mongodb.com/manual/reference/method/js-database/)
