@@ -1,4 +1,5 @@
-### [return main page](../README.md)
+### [return main page](../README.md) || Topic. introduction in MongoDB.
+**Important !!!** For now, ignore this chapter, because it is not finished and is at this stage is very raw and need redact very seriously. I hope that this documentation will be comfortable clear and the most important without any buzzwords. With other words simple documentation. Thank for understand. But don't worry, I'll come back to this chapter anyway.
 
 ### Types of database MongoDB which can to Downlaods :
 * [MongoDB Atlas](https://www.mongodb.com/try)
