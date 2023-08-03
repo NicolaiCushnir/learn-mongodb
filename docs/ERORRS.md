@@ -14,3 +14,8 @@ console.log();
 console.log();
 ```
 
+* Vreau să fac update la toată colecția `users` adica să adaug propietatea `"hide": true;` Dar îmi dă err. MongoServerError: Cannot increment with non-numeric argument: {hide: true} $set
+
+```js
+db.users.updateMany({}, { $inc: { "hide": true } });
+```

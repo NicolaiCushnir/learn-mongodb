@@ -41,16 +41,18 @@
 
 **Update Documents**
 * `db.users.updateOne({ _id: ObjectId('6432bfc5c82933b167a2eaee')}, { $set:{ likes: "none", dislikes: "none" } } );` - 
-* `db.users.updateMany( {}, {$set: { likes: "none", dislikes: "none"}} );` - am schimbat și adăugat în același timp proprietățile `likes` și `dislikes`.
+* `db.users.updateMany( {}, {$set: { likes: "none", dislikes: "none"}} );` - Am schimbat și adăugat în același timp proprietățile `likes` și `dislikes`. important! Cînd ai nevoie să adaugi noi proprietăți la toată colecția care ai nevoie? în cazul meu, users. Doar că mia schimbat 2 proprietăți era "hide": false in "hide": true. Este oleak de niuans!
 * `db.users.updateOne({ _id: ObjectId('644e749e40f95f57eeb1545e') }, { $inc: { age: 1 } });`  - Увеличивает или инкрементирует на указанное значение. Также этот оператор принимает положительные и отрицательные значения. Если поле не существует, $inc создает поле и устанавливает для поля указанное значение. В днааном примере мы увиличили возраст на 1 год.
-* `db.users.updateMany({}, { $inc: { "duration.minutes": 2 } });` - Be careful with operators and braces. Nustiu de ce so sters 2 id-uri, apoi sa pus la toate minutes: 2. Weird! **?**
+* `db.users.updateMany({}, { $inc: { "duration.minutes": 2 } });` - Be careful with operators and braces. Nustiu de ce so sters 2 id-uri, apoi sa pus la toate minutes: 2. Weird! Если поле не существует, оператор $inc создает поле и устанавливает для него указанное значение.
 * `db.users.updateOne( {_id: ObjectId("6432bfc5c82933b167a2eaee")}, {$pull: {genres: "drama"}} );` -  Operator $pull delete for properties or property. In cazu meu nifiga el nu sa sters. **?**
 * `db.users.updateOne( {_id: ObjectId("6432bfc5c82933b167a2eaee")}, {$push: {genres: "drama"}} );` - Tipa operator $push adaugă proprietate dar nu proprietati. Pentru așa cazuri unde dorești să adaugi mai multe proprietăți egzistă operatorul **$each ? Dar $inc ?** 
 * `db.users.updateOne( { _id: ObjectId("6432bfc5c82933b167a2eaee") }, { $push: {genres: { $each: ["test_1", "test_2", "test_3"] }} } );` - Operatorul $each: {} Adauga mai multe proprietatati. **?**
 * `db.collection.findAndModify();` - **?**
 * `db.users.find({ rating: null });` - Используй это когда ты хочешь получить доступ к докуметам которые отсутствует свойства. У меня вообще нет в коллекции такое свойство, поэтому выдаёт всю коллекцию.
 * `{ raiting: { $exists: false } }` Для проверки если поля присутствует или нет. **?**
-* `db.users.find({  }).skip();` **?**
+* `db.users.find({ "hide": false }).skip(0);` **?** Un alt exemplu: db.users.find().skip(3); Am o impresie parcă ascunde cîte elemente dorrești. Mai concret în colecția meea cu numele "users" sunt 9 elemente dintre care am ascuns 3 și au rămas 6 (rezultat). Plus în parametru se pune obligatoriu numărul de la zero la cît ai în colecție, cît trebuie de ascuns obiecte/documente. Fii atent cu acest operator.
+
+**Important !!!** La sfîrșit vreau ca la fiecare operator să fac pagini aparte pentru a crea mai multe exemple, aparte. În așa fel o să-mi fie mai ușpr să le învăț + mai înțeles.
 
 ### Extern links :
 * [MngoDB manual reference methods](https://docs.mongodb.com/manual/reference/method/js-database/)
