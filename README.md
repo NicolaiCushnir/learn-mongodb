@@ -3,24 +3,24 @@
 **Attention !** This repository still is raw. But I will try to do a good documentation for MongoDB.
 
 ### Topics : learn-mongodb :
-* [introduction](docs/INTRO.md)
+* [Introduction](docs/INTRO.md)
 * [Installation](docs/INSTALL.md) 
-* [Compass](docs/COMPASS.md) 
-* [Mongo Shell](docs/MONGO.md)
+* [Mongo Shell](docs/MONGO.md) (First Steps)
 * [Commands](docs/COMMANDS.md) Now Work ...
 * [Methods](docs/METHODS.md)
 * [Operators](docs/OPERATORS.md)
 * [Aggregation](docs/AGGREGATION.md)
 * [Indexing](docs/INDEXING.md)
 * [Security](#)
-* [Data Modeling](docs/DATA_MODELING.md)
 * [Transactions](#)
 * [Search](#)
 * [Errors](docs//ERORRS.md)
 * [Tasks](docs/TASKS.md)
 * [ADV and DIS](docs/ADV&&DIS.md)
 * [Examples](docs/EXAMPLES.md)
-* [Sharding](SHARDING.md)
+* [Sharding](docs/SHARDING.md)
+* [Data Modeling](docs/DATA_MODELING.md)
+* [Types of MongoDB](docs/TYPES_DB.md)
 * [Questions](docs/QUESTIONS.md)
 
 ### Exetern Links :

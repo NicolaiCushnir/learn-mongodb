@@ -22,3 +22,6 @@ function connect_to_mongo () {
 * How to save so i want `likes` and `dislikes` ?
 * Как работать с датой и времение в MongoDB ?
 * Что такое Cluster и нафига он нужен ?
+
+### Extern links :
+* link 1
