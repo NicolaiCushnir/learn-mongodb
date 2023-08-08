@@ -1,12 +1,13 @@
 ### [return main page](../README.md) || Topic. introduction in MongoDB.
 **Important !!!** For now, ignore this chapter, because it is not finished and is at this stage is very raw and need redact very seriously. I hope that this documentation will be comfortable clear and the most important without any buzzwords. With other words simple documentation. Thank for understand. But don't worry, I'll come back to this chapter anyway.
 
-### Keywords in MongoDB: **?**
-* `mongo` : După conectarea la mongod, permite să lucrez în terminal.
+### Keywords in MongoDB:
+**Important** I repeat! This is very important information. Better memorize it. I mean 5 concepts.
 * `mongod` : Serverul bazei de date MongoDB.
+* `mongo` : După conectarea la mongod, permite să lucrez în terminal.
 *  `compass`: Local database. A place where you write your json scheema in interface mode. I mean instead of Shell ... A kind of `phpMyAdmin`.
-* `collection` : Analogic cu tabel.
-* Обычный JSON
+* `JSON` Simple Structure.
+* `collection` : Similar with table from Relational Database so like PostgreSQL or others.
 
 ### List with baasic commands in MongoDB Console :
 **Important !!!** Simple console or terminal. Вoesn't matter.
@@ -32,5 +33,10 @@
 * `db help();` - ?
 * `getCollectionInfos;` - ?
 
+### Keywords that you should not worry about yet.
+I'll just tell you a little about them.
+* Mongos - ?
+* Atlas - ?
+
 ### Extern Links :
-* [Mongos Manual]()
+* link 1

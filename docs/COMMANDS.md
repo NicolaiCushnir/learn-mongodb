@@ -48,9 +48,12 @@
 * `db.users.updateOne( {_id: ObjectId("6432bfc5c82933b167a2eaee")}, {$push: {genres: "drama"}} );` - Tipa operator $push adaugă proprietate dar nu proprietati. Pentru așa cazuri unde dorești să adaugi mai multe proprietăți egzistă operatorul **$each ? Dar $inc ?** 
 * `db.users.updateOne( { _id: ObjectId("6432bfc5c82933b167a2eaee") }, { $push: {genres: { $each: ["test_1", "test_2", "test_3"] }} } );` - Operatorul $each: {} Adauga mai multe proprietatati. **?**
 * `db.collection.findAndModify();` - **?**
-* `db.users.find({ rating: null });` - Используй это когда ты хочешь получить доступ к докуметам которые отсутствует свойства. У меня вообще нет в коллекции такое свойство, поэтому выдаёт всю коллекцию.
+* `db.users.find({ rating: null });` - Используй это когда ты хочешь получить доступ к свойствам которые отсутствуют в колекции. У меня вообще нет в коллекции такое свойство, поэтому добавился в колеуцию как родной. )) 
 * `{ raiting: { $exists: false } }` Для проверки если поля присутствует или нет. **?**
-* `db.users.find({ "hide": false }).skip(0);` **?** Un alt exemplu: db.users.find().skip(3); Am o impresie parcă ascunde cîte elemente dorrești. Mai concret în colecția meea cu numele "users" sunt 9 elemente dintre care am ascuns 3 și au rămas 6 (rezultat). Plus în parametru se pune obligatoriu numărul de la zero la cît ai în colecție, cît trebuie de ascuns obiecte/documente. Fii atent cu acest operator.
+* `db.users.find({ "hide": false }).skip(0);` Un alt exemplu: db.users.find().skip(3); Am o impresie parcă ascunde cîte elemente dorrești. Mai concret în colecția meea cu numele "users" sunt 9 elemente dintre care sa ascuns 3 și au mai rămas 6, (rezultat). Plus în parametru se pune obligatoriu numărul de la zero la cît ai în colecție, sau cel putin cti iti trebuie tie de ascuns. Fii atent cu acest operator.
+* `db.users.distinct("age");` - Показывает ствоийста который ты написал внутри иетода `distinct("")` в форме массива, с всеми значением которые у тебя есть в данной коллекции. А имено в моём случие "age" показывает все годы рождение в виде массива.
+* `db.users.replaceOne();` - Он принимает 3 аргумента. Первый поискавой елемент. То есть елемент который должен заменить. Второй аргумент который появиться в колекции. Третий это обьект "options", то есть опцианальный.
+* `db.users.replaceMany();` - ?
 
 **Important !!!** La sfîrșit vreau ca la fiecare operator să fac pagini aparte pentru a crea mai multe exemple, aparte. În așa fel o să-mi fie mai ușpr să le învăț + mai înțeles.
 
