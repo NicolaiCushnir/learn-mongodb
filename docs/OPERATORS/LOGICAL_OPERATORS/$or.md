@@ -1,3 +1,5 @@
+### [return main page](../README.md)
+
 ### Operator $or
 * `$or` - Оператор выполняет логическую операцию над массивом из одного или нескольких `expressions` и выбирает документы, удовлетворяющие хотя бы одному из условий `expressions`. $or имеет следующий синтаксис :
 
@@ -22,3 +24,7 @@ db.users.find( { $or: [{age: {$lte: 20}}, {age: {$eq: 18}} ] } );
 ```js
 db.inventory.find ( { quantity: { $in: [20, 50] } } )
 ```
+
+### Extern links :
+* link 1
+* link 2

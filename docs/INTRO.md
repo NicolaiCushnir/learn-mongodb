@@ -37,6 +37,7 @@
 I'll just tell you a little about them.
 * Mongos - ?
 * Atlas - ?
+* mongod - ?
 
 ### Extern Links :
-* link 1
+* [Keywords MongoDB](https://www.mongodb.com/docs/manual/reference/glossary/#std-term-admin-database)
