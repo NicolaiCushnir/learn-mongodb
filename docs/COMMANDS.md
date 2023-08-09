@@ -52,8 +52,8 @@
 * `{ raiting: { $exists: false } }` Для проверки если поля присутствует или нет. **?**
 * `db.users.find({ "hide": false }).skip(0);` Un alt exemplu: db.users.find().skip(3); Am o impresie parcă ascunde cîte elemente dorrești. Mai concret în colecția meea cu numele "users" sunt 9 elemente dintre care sa ascuns 3 și au mai rămas 6, (rezultat). Plus în parametru se pune obligatoriu numărul de la zero la cît ai în colecție, sau cel putin cti iti trebuie tie de ascuns. Fii atent cu acest operator.
 * `db.users.distinct("age");` - Показывает ствоийста который ты написал внутри иетода `distinct("")` в форме массива, с всеми значением которые у тебя есть в данной коллекции. А имено в моём случие "age" показывает все годы рождение в виде массива.
-* `db.users.replaceOne();` - Он принимает 3 аргумента. Первый поискавой елемент. То есть елемент который должен заменить. Второй аргумент который появиться в колекции. Третий это обьект "options", то есть опцианальный.
-* `db.users.replaceMany();` - ?
+* `db.users.replaceOne({ _id: ObjectId("64d39ae528b2a3db4cc1d277") }, {country: "none"});` - Этот метод полностью заменяет элемент(объект) из коллекции. И Остается только id объекта,или то что ты пописал после. Повторяю! Если у тебя было очень много свойств в объекте, то всё удалится и на его место поставиться то что ты написал. **?**
+* `db.users.replaceMany();` - Аналогично методу replaceOne(); Только тут мы удаляем и затем заменяем не один элемент, а больше елементов(Objects). Важно!!! Будь очень окоратым с этим методом, а то может удалить всю базу данных. **?**
 
 **Important !!!** La sfîrșit vreau ca la fiecare operator să fac pagini aparte pentru a crea mai multe exemple, aparte. În așa fel o să-mi fie mai ușpr să le învăț + mai înțeles.
 
