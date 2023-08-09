@@ -5,10 +5,11 @@
 * `db.getName();` - Show name at your database, where you are now. I mean inside db.
 * `show dbs` - show all datababases which you have.
 * `show collections;` || `db.collection_name.find();`- Show all collections inside at database, and collection is analogic with table from PostgreSQL.
-* `?` - Rename collection? **?**
-* `?` - Create a collection with help at terminal? Probably only with Compass to do. **?**
-* `db.users.find().pretty();` - Nuștiu dacă este nevoie dar, într-un fel arată toată lista dintr-o colecție într-o formă mai frumoasă. Defapt în versiunea la MongoDB 6.0.5 nu este nevoie de această metodă. În versiunele mai vechi arăta compact mod.
-* `?` - how to look a colection in compact mode **?**
+* `use Tutorial-Online` - Create a database in terminal. There is no “create” command in the MongoDB Shell. But we write command "use" to create a db. Tutorial-Online is an exemple of database.
+* `db.users.insert({ "name": "Nicolai Cushnir", "age": 29});` - Create a collection in db Tutorial-Online, with help at terminal. MongoDB only creates the database when you first store data in that database, so like in example of above.
+* `db.old_name_collection.renameCollection("new_name_collection");` - Rename collection (from terminal).
+* `db.users.find().pretty();` - Nuștiu dacă este nevoie dar, într-un fel arată toată lista dintr-o colecție într-o formă mai frumoasă. Defapt în versiunea la MongoDB 6.0.5 nu este nevoie de această metodă.
+* `?` - How to look a colection in compact mode **?**
 
 **Insert Documentss**
 * `db.users.insertOne({name: "Sofia Rotaru", password: "sofia123", gender: "female", age: 14});` - insert something. Maybe an user, why not.
