@@ -14,10 +14,10 @@
 
 ### Logical Operator :
 * [$and](OPERATORS/LOGICAL_OPERATORS/$and.md) - ?
-* [$or](#) - ?
-* [$not](#) - ?
-* [$nor](#)- Объединяет предложения запроса с логическим `$nor` возвратом всех документов, которые не соответствуют обоим предложениям.
-* [$all](#) - ?
+* [$or](OPERATORS/LOGICAL_OPERATORS/$or.md) - ?
+* [$not](OPERATORS/LOGICAL_OPERATORS/$not) - ?
+* [$nor](OPERATORS/LOGICAL_OPERATORS/$nor.md)- Объединяет предложения запроса с логическим `$nor` возвратом всех документов, которые не соответствуют обоим предложениям.
+* [$all](OPERATORS/LOGICAL_OPERATORS/$all.md) - ?
 
 ### Evaluation (Оценка) : 
 * `$expr` - Позволяет использовать выражения агрегации в языке запросов.
