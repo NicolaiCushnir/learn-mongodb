@@ -1,6 +1,6 @@
-### [return main page](../../../README.md)
+### [return main page](../../../README.md) || [Page - MongoDB All Operators](../../OPERATORS.md)
 
-### Operator $all
+### Operator $all :
 
 1. `db.users.find( { tags: { $all: [ "appliance", "school", "book" ] } } );` - Numaidecît your query trebuie să fie un masiv. Operatorul $all este un array care contine toate elementele specifice. Parcă nu contezaă dacă `tags` property e in ghilimele sau fără.
 2. Structura la proiect se află în fișierul(folder) `files_json.md` cu denumirea `filme.md` din proiectul principal `learn-mongodb` din Github.

@@ -1,4 +1,4 @@
-### [return main page](../README.md)
+### [return main page](../README.md) || Operators Page :
 
 ### Logical Operator :
 * [$and](OPERATORS/LOGICAL_OPERATORS/$and.md) - ?
