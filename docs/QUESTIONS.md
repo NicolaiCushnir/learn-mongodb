@@ -27,6 +27,7 @@ function connect_to_mongo () {
 7. How to save so i want `likes` and `dislikes` ?
 8. Как работать с датой и времение в MongoDB ?
 9. Что такое Cluster и нафига он нужен ?
+10. Care este diferența dintre, operatori și simpli proprietăți? Fie de căutare fie de alt ceva.
 
 ### Extern links :
 * link 1

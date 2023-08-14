@@ -2,9 +2,16 @@
 
 ### Operator $all :
 
-1. `db.users.find( { tags: { $all: [ "appliance", "school", "book" ] } } );` - Numaidecît your query trebuie să fie un masiv. Operatorul $all este un array care contine toate elementele specifice. Parcă nu contezaă dacă `tags` property e in ghilimele sau fără.
-2. Structura la proiect se află în fișierul(folder) `files_json.md` cu denumirea `filme.md` din proiectul principal `learn-mongodb` din Github.
-3. **Exemplu 1** Bellow show the result. Pentru că eu am în baza de date MongoDB 2 rezultate cu acestă proprietate `tags`.
+**Explication :**
+În primeul rînd operatorul `$all` numaidecât trebuie să fie un array. Apoi selectează proprietățile dintr-un șir de elemente care sunt în baza de date, JSON. Acum ascultă atent! 
+
+**Mongo Query :**
+1. `db.users.find( { tags: { $all: [ "appliance", "school", "book" ] } } );`  - Similar cu cel din documentația oficială
+2. `db.users.find({ "watching_tags": {$all: ["Programming"] } })` - Exemplu meu care il am în baza de date JSON.
+3. `db.movies.find( { genre: { $all: ["crime"] } } );`
+
+**Examples :**
+1. După cum putem vedea din exemplu de mai jos, proprietatea `tags` au fost sortate cîteva elemente. Restul pur și simplu nu au fost arătate. Asta și semnifică operatorul $all.
 
 ```js
 [
@@ -35,9 +42,61 @@
 ]
 ```
 
-1. **Exemplu 2** : `db.filme.find( { genre: { $all: ["crime"] } } );` defapt structura arata asa.
-2. Structura se amplasează în fișierul `json_files` cu denumirea
-3. Dar asa arata rezultatul in shell, mai precis in PowerShell Windows 10.
+2. Privește la proprietatea `watching_tags`: 
+
+```js
+{
+  "_id": {
+    "$oid": "64d18167b71ce70077d6b1a1"
+  },
+  "registred": "19.12.2015",
+  "name": "Nicolai Cushnir",
+  "gender": "male",
+  "age": 29,
+  "mail": "cushnirnicolai@gmail.com",
+  "password": "node.js_developer_2009",
+  "watching_tags": [
+    "Programming",
+    "Rock Music",
+    "Learn Germany",
+    "Juridica",
+    "Learn English"
+  ],
+  "likes_posts": [
+    {
+      "Post_1": "some text 1"
+    },
+    {
+      "Post_2": "some text 2"
+    }
+  ],
+  "dislikes_posts": [
+  {
+    "title post 1": "I don't like it this post."
+  },
+    {
+    "title post 1": "I don't like it this post."
+  }
+  ],
+  "saved_bookmarks_posts": [
+    "id_post_3212",
+    "id_post_3012"
+  ],
+  "comment_at_posts": [
+    {
+      "number_at_comment": 1,
+      "post_comment": "Hahaha, was very funny this article."
+    },
+    {
+      "number_at_comments": 2,
+      "post_comment": "I didn't understand this article if to be honest. Can say in commnets what you want to say? Please"
+    }
+  ],
+  "country": "Moldova"
+}
+```
+
+3. Uite-te la proprietatea `genre`. O să arăte doar toate filmele cu așa gen de film.
 
 ```js
 [
