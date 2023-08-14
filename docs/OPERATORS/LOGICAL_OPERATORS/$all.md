@@ -7,10 +7,10 @@
 
 **Mongo Query :**
 1. `db.users.find( { tags: { $all: [ "appliance", "school", "book" ] } } );`  - Similar cu cel din documentația oficială
-2. `db.users.find({ "watching_tags": {$all: ["Programming"] } })` - Exemplu meu care il am în baza de date JSON.
+2. `db.users.find({ "watching_tags": {$all: ["Programming", "Rock Music"] } });` - Exemplu meu care il am în baza de date JSON.
 3. `db.movies.find( { genre: { $all: ["crime"] } } );`
 
-**Examples :**
+**JSON Examples :**
 1. După cum putem vedea din exemplu de mai jos, proprietatea `tags` au fost sortate cîteva elemente. Restul pur și simplu nu au fost arătate. Asta și semnifică operatorul $all.
 
 ```js
