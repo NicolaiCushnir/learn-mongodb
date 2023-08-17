@@ -115,3 +115,6 @@
   }
 ]
 ```
+
+### Extern links :
+* [MongoDB find() with all ($all Operator)](https://sparkbyexamples.com/mongodb/mongodb-find-with-all-operator/)
