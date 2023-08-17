@@ -1,17 +1,27 @@
 ### [return main page](../README.md) || Commands in Shell Terminal 
 
 **Global manipulation with database**
-* `db.version();` - Show version at mongoDB.
+* `db.version();` - Show version at mongoDB. Or "version();"
 * `db.getName();` - Show name at your database, where you are now. I mean inside db.
 * `show dbs` - show all datababases which you have.
 * `show collections;` || `db.collection_name.find();`- Show all collections inside at database, and collection is analogic with table from PostgreSQL.
-* `use Tutorial-Online` - Create a database in terminal. There is no “create” command in the MongoDB Shell. But we write command "use" to create a db. Tutorial-Online is an exemple of database.
-* `db.users.insert({ "name": "Nicolai Cushnir", "age": 29});` - Create a collection in db Tutorial-Online, with help at terminal. MongoDB only creates the database when you first store data in that database, so like in example of above.
+* `use Tutorial-Online` - Cuvîntul cheie "use" are 3 funcții, acțiuni. Poate să facă numai 3 schestii separate una de alta. Prima chestie e, create a database in terminal. Because there is no “create” command in the MongoDB Shell. But we write command "use" to create a db. Like an exemple is "use Tutorial-Online". Surely you noticed that the database is created but nothing is shown in the console. Relax! So and must be. Database will show in console only if then when we will insert something inside db with method "insert". Look bellow.
+* `db.createCollection("statistics");` create a new collection, where we must write inside method "createCollection();" the name at collection, in string form. It's not important this name "statistics". I so have decided, but you can put an another word, which you want.
+* `db.users.insert({ "name": "Nicolai Cushnir", "age": 29});` - Create a collection in db Tutorial-Online, with help at terminal. MongoDB only creates the database when you first store data in that database, so like in example of above. Now you can see your database created in console.
+* `db.getCollectionNames();` În primul rând trebuie să fii înăuntru la o bază de date. În cazul meu, sunt în baza de date "my-blog". Acum important! Arată lista colecților/tabelelor din baza de date în formă de un șir de elemente array.
+* `show users` - Arată lista utilizatorilor cu rolurile sale. Această comandă este utilă pentru developeri ce crează aplicații web. La momentul actul am un arr gol, fiindcă nu am adaugat nici unul. Presupun încă cînd faci un proiect dor trebuie front-end developer, back-end-developer, test-dev, dev-ops etc. Așa că cretcă pentru asta trebuie commanda dată. Dar nu sunt sigur. Ceva de gen un fișier JSON dar deja cum am mai spus cu rolurile fiecăruia. Dar mai degrabă nu este o structură fixă ceia ce înseamnă că fiecare Admin, sau developer crează rolurile așa cum vede el, nu este o structură strictă. Fă așa cum doresști!
+* `db. getUsers();` Method **???**
+* `db.getCollectionInfos();` **???**
 * `db.old_name_collection.renameCollection("new_name_collection");` - Rename collection (from terminal).
-* `?` - Drop a collection. **???**
-* `?` - Drop a database. **???**
+* `db.name_at_colllection_which_you_want_to_delete.drop();` - Drop a collection.
+* `db.dropDatabase();` - Drop a database with all colections. But i will not make because i don't want.
 * `db.users.find().pretty();` - Nuștiu dacă este nevoie dar, într-un fel arată toată lista dintr-o colecție într-o formă mai frumoasă. Defapt în versiunea la MongoDB 6.0.5 nu este nevoie de această metodă. **???**
 * `?` - How to look a colection in compact mode **???**
+* `db.users.validate();` **???**
+* `db.name_collection.totalSize();` - оазмер файла в байтах. In my case "db.users.totalSize();"
+* `db.users.storageSize();` -  Показывает размер коллекции в байтах на диске. Однако без индексов.
+* `db.users.stats();` - Показывает результат об о всём что происходило в коллекции.
+* `db.hostInfo();` - Показывает информацию о сервере.
 
 **Insert Documentss**
 * `db.users.insertOne({name: "Sofia Rotaru", password: "sofia123", gender: "female", age: 14});` - insert something. Maybe an user, why not.
