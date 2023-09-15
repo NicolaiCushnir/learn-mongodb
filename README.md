@@ -25,6 +25,7 @@
 * [Node.js API](#)
 
 ### Exetern Links :
+* [Building a REST API with Express, Node, and MongoDB](https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial#the-project-architecture)
 * [MongoDB All Methods](https://www.mongodb.com/docs/v4.2/reference/method/db.collection.update/#db.collection.update)
 * [Tutorial Point : Connecting MongoDB with NodeJS](https://www.tutorialspoint.com/connecting-mongodb-with-nodejs)
 * [Stack Overflow](https://stackoverflow.com/tags/mongodb/info)
