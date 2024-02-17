@@ -3,7 +3,7 @@
 
 * CRUD exemple: 
 
-```
+```js
 Example of code REST API:
 const express = require('express');
 const bodyParser = require('body-parser');
