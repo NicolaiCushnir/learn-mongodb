@@ -21,6 +21,7 @@ However, for create CRUD operations together with MongoDB and Node.js, must know
 1. Endpoints
 1. Pug.js
 1. Postman - Caută analogic programe, poate chiar postcode
+1. [Methods Data Requests](METHODS_DATA_REQUESTS.md)
 
 ### Extern links :
 * link 1
