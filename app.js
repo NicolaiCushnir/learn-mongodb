@@ -4,6 +4,7 @@ var mongo = require('mongodb');
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/anime";
 const port = 1234;
+const pug = require("pug");
 
 app.get('/', function(req, res) {
 	res.send("Hi! MongoDB");
