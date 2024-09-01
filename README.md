@@ -23,6 +23,7 @@
 * [Types of MongoDB](docs/TYPES_DB.md)
 * [Questions](docs/QUESTIONS.md)
 * [Node.js API](docs/NODE_API.md)
+* [Endpoints](docs/ENDPOINTS.md)
 * [Topics for Learn](docs/TOPICS_FOR_LEARN.md)
 
 ### Exetern Links :
