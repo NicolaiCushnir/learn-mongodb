@@ -1,7 +1,8 @@
 ### [return main page](../README.md)
 
 ### Install MongoDB
-1. [Download MongoDB Atlas](https://www.mongodb.com/download-center?jmp=nav#community)
+1. [Create Your MongoDB Atlas](https://www.mongodb.com/download-center?jmp=nav#community) **Not Ncesaray**
+1. [Download MongoDB Community Server Download](https://www.mongodb.com/try/download/community)
 1. Add `MongoDB` in enviroment variables => [/bin in PATH.](https://github.com/NicolaiCushnir/learn-mongodb/blob/master/docs/PATH.md)
 1. Scrie in consolă `mkdir C:/data/db`.
 1. [Now Download MongoDB Shell](https://www.mongodb.com/try/download/shell)

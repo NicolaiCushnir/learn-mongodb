@@ -2,7 +2,7 @@
 However, for create CRUD operations together with MongoDB and Node.js, must know follows topics :
 
 ### Before to learn MongoDB
-1. Стрелочные функций
+1. Стрелочные функций - всё и за того что в интернете показывает дурацкие примеры.
 1. ForEach
 1. Asynchronous
 1. Combine: [1,2,3] above
