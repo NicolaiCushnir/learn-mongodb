@@ -6,6 +6,7 @@
 1. Add to Path Enviroment Variables : `C:\Program Files\MongoDB\Server\8.0\bin`
 1. Dezarhivează(Unzip) mongosh-1.8.0-win32-x64.zip undeva, macar si in downloads.
 1. Go from `mongosh-2.3.1-win32-x64` in `bin` folder and copy all files.
+1. Important! Now, go to `C:\Program Files\MongoDB\Server\8.0\bin` and paste.
 1. Rename `mongosh.exe` with `mongo.exe`
 1. If mongod give error: "Shutting down" Write in Console `mkdir C:\data\db`
 
