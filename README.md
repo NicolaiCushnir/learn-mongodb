@@ -1,6 +1,6 @@
 ![image](public/img/drawing.png)
 
-**Attention !** This repository still is raw. But I will try to do a good documentation for MongoDB.
+**Attention !** This repository is in very raw view and quite in bad condition. But now i learning MongoDB && Node.js && Pug.js for in order to make excellent documentation, not boring and even interesting and most importantly as easy as possible. Thank you for understanding. 
 
 ### Topics : learn-mongodb :
 * [Introduction](docs/INTRO.md)
